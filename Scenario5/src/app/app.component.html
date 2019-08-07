@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  
+</div>
+<div>{{"This is Component 1 "+ name}}</div>
+<app-component2 (childEvent)="setData($event)"></app-component2>
+
+<router-outlet></router-outlet>
